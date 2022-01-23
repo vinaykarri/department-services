@@ -1,4 +1,4 @@
-package com.vinay.department.services.entity;
+package com.vinay.department.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
