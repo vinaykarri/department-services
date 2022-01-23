@@ -1,12 +1,12 @@
-package com.vinay.department.services.service;
+package com.vinay.department.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.vinay.department.services.entity.Department;
-import com.vinay.department.services.repository.DepartmentRepository;
+import com.vinay.department.entity.Department;
+import com.vinay.department.repository.DepartmentRepository;
 
 @Service
 public class DepartmentService {

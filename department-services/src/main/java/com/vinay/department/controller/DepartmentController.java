@@ -1,4 +1,4 @@
-package com.vinay.department.services.controller;
+package com.vinay.department.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vinay.department.services.entity.Department;
-import com.vinay.department.services.service.DepartmentService;
+import com.vinay.department.entity.Department;
+import com.vinay.department.service.DepartmentService;
 
 @RestController
 @RequestMapping("/departments")
